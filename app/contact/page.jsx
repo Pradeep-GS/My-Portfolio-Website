@@ -134,7 +134,7 @@ const Page = () => {
                 </p>
 
                 <p className="text-white/70 text-sm">
-                  📞 +91 12345 67890
+                  📞 +91 95006 88248
                 </p>
               </div>
           </div>
