@@ -23,7 +23,7 @@ export default function ProjectCard({ title, description, tech = [], github, lin
       onMouseLeave={() => setHovered(false)}
       className={`
         relative flex flex-col gap-5 rounded-2xl p-7 overflow-hidden
-        border transition-all duration-300 ease-out cursor-default mt-10 h-[420px]
+        border transition-all duration-300 ease-out cursor-default mt-10 lg:h-[420px]
         ${hovered
           ? "border-[#763CAC] -translate-y-1.5 shadow-[0_20px_60px_rgba(118,60,172,0.25)] bg-[#1a0d38]"
           : "border-[rgba(118,60,172,0.2)] shadow-[0_4px_24px_rgba(0,0,0,0.5)] bg-[#120827]"
