@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram,MapPin ,Mail,Phone} from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 const Page = () => {
@@ -125,17 +125,21 @@ const Page = () => {
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md shadow-lg space-y-3 mt-2">
                 <p className="text-white font-semibold text-lg">Quick Contact</p>
 
-                <p className="text-white/70 text-sm">
-                  📍 Karur, India
+                <p className="text-white/70 text-sm flex items-center gap-2">
+                  <MapPin className="w-4 h-4" />
+                  <span>Karur, India</span>
                 </p>
 
-                <p className="text-white/70 text-sm">
-                  📧 gspradeep9500@gmail.com
+                <p className="text-white/70 text-sm flex items-center gap-2">
+                  <Mail className="w-4 h-4" />
+                  <span>gspradeep9500@gmail.com</span>
                 </p>
 
-                <p className="text-white/70 text-sm">
-                  📞 +91 95006 88248
+                <p className="text-white/70 text-sm flex items-center gap-2">
+                  <Phone className="w-4 h-4" />
+                  <span>+91 95006 88248</span>
                 </p>
+
               </div>
           </div>
 
