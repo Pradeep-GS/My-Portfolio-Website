@@ -40,6 +40,33 @@ const projects = [
     github: "https://github.com/Pradeep-GS/Quick_Service_Booking_application",
     link: "",
   },
+
+  {
+    title: "Hospital Management System",
+    description:
+      "A full-stack hospital management system designed to manage patients, doctors, appointments, and hospital operations through a centralized platform.",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Socket.io"],
+    github: "https://github.com/Pradeep-GS/Hospital-Management-System",
+    link: "",
+  },
+
+  {
+    title: "Skill Gap Analysis",
+    description:
+      "An AI-powered skill gap analysis platform that evaluates a user's skills and identifies areas for improvement based on career and job requirements.",
+    tech: ["Python", "FastAPI", "React.js", "Machine Learning", "AI"],
+    github: "https://github.com/Pradeep-GS/Skill-Gap-Analysis",
+    link: "",
+  },
+
+  {
+    title: "Drug Supply Chain Tracking",
+    description:
+      "A drug supply chain tracking system designed to improve transparency and traceability across the pharmaceutical supply chain, helping track drug movement from manufacturers to distributors.",
+    tech: ["Blockchain", "JavaScript", "Web Development"],
+    github: "https://github.com/Pradeep-GS/Drug-Supply-Chain_Tracking",
+    link: "",
+  },
 ];
 
 // Each card gets its own scroll-driven animation
